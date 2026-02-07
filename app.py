@@ -152,7 +152,7 @@ def send_visits():
     elif region in {"BR", "US", "SAC", "NA", "NX"}:
         region = "BR"
     else:
-        region = "SG"
+        region = "BD"
 
     tokens = fetch_tokens(region)
     if not tokens:
@@ -251,6 +251,7 @@ if __name__ == "__main__":
     import os
     port = 5006
     app.run(host="0.0.0.0", port=port, debug=False)
+
 
 
 
