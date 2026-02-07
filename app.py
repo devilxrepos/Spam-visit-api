@@ -46,7 +46,7 @@ async def get_header(token):
         "Authorization": f"Bearer {token}",
         "X-Unity-Version": "2018.4.11f1",
         "X-GA": "v1 1",
-        "ReleaseVersion": "OB51",
+        "ReleaseVersion": "OB52",
         "Content-Type": "application/x-www-form-urlencoded",
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; SM-N975F Build/PI)",
         "Connection": "close",
@@ -251,6 +251,7 @@ if __name__ == "__main__":
     import os
     port = 5006
     app.run(host="0.0.0.0", port=port, debug=False)
+
 
 
 
